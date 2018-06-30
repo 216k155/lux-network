@@ -9,10 +9,10 @@ import (
 	"github.com/216k155/lux-network/messages"
 )
 
-var MainNetStartString = []byte{0xf9, 0xbe, 0xb4, 0xd9}
+var MainNetStartString = []byte{0x6a, 0xb3, 0xc8, 0xa9}
 
 // TODO add support for test nets.
-var TestNetStartString = []byte{0x0b, 0x11, 0x09, 0x07}
+var TestNetStartString = []byte{0xa1, 0xcf, 0x7e, 0xac}
 var RegTestStartString = []byte{0xfa, 0xbf, 0xb5, 0xda}
 
 // Send ping if no activity for this many seconds.
