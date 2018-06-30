@@ -15,7 +15,7 @@ import (
 )
 
 const kMainNetDefaultPort = 26969
-const kMinPeerVersion = 70001
+const kMinPeerVersion = 69400
 
 // Package of data going to or comming from a connected peer.
 type Message struct {
